@@ -24,8 +24,10 @@ node {
      build project via maven
     //sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
 	    cd "C:/Program Files (x86)/Jenkins/apache-maven-3.5.4/bin/"
-	    mvn -Dmaven.test.failure.ignore clean package
+	    mvn -Dmaven.test.failure.ignore 
     }
+	//clean package
+    //}
 	
 	
 	
