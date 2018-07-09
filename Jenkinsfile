@@ -28,7 +28,7 @@ node {
 	stage('Build Project') 
 	{
       	build project via maven
-      	sh "'C:\Program Files (x86)\Jenkins\apache-maven-3.5.4/bin/mvn' -Dmaven.test.failure.ignore clean package"
+      	sh "'C:/Program Files (x86)/Jenkins/apache-maven-3.5.4/bin/mvn' -Dmaven.test.failure.ignore clean package"
         }
 	
 	
